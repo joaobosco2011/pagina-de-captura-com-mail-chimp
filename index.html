@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <!-- Inserção do favicon -->
+        <!-- FAV ICON -->
         <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
         <title>WorkShop Gratuito - Primeiros passos com a programação</title>
     </head>
@@ -13,6 +13,7 @@
     <body>
         <div class="conteudo">
 
+            <!-- CABEÇALHO -->
             <header class="cabecalho">
                 <img src="imagens/logo.png" alt="workshop-logo">
 
@@ -21,16 +22,30 @@
                 <h3>100% online e gratuito</h3>
             </header>
     
-            <form action="" method="get" class="formulario">
-                <input type="text" name="nome" placeholder="Nome" class="form_input">
-                <input type="email" name="email" placeholder="E-mail" class="form_input">
+            <!-- FORMULÁRIO -->
+            <form action="https://gmail.us18.list-manage.com/subscribe/post?u=c78b4789c98e90d7b70af0253&amp;id=7a9fa83191" method="post" id="mc-embedded-subscribe-form"  name="mc-embedded-subscribe-form" 
+            class="validate" target="_blank" novalidate>
 
+                <!-- CAMPO DE NOME -->
+                <input type="text" value="" name="FNAME" placeholder="Nome" class="form_input" id="mce-FNAME" required>
+
+                <!-- CAMPO DE E-MAIL -->
+                <input type="email" value="" name="EMAIL" placeholder="E-mail" class="form_input" id="mce-EMAIL" required>
+
+                <!-- CAMPO DE ACEITE OFERTAS -->
                 <label for="chekbox_label" class="label_checkbox">
-                    <input type="checkbox" name="ckeckbox" id="chekbox_label">
+                    <input type="checkbox" name="ckeckbox" id="chekbox_label" value="sim">
                     Sim, desejo me inscrever no Workshop e receber e-mails sobre tecnologia, programação e ofertas.
                 </label>
 
-                <input type="submit" value="Quero me inscrever!" class="submit_button">
+                <!-- BOTÃO DE INSCRIÇÃO -->
+                <input type="submit" value="Quero me inscrever!" name="subscribe" id="mc-embedded-subscribe" class="button">
+
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                    <input type="text" name="b_c78b4789c98e90d7b70af0253_7a9fa83191" tabindex="-1" value="">
+                </div>
+            
             </form>
 
         </div>
